@@ -6,8 +6,5 @@ def main():
     else:
         print("x is not even")
 def is_even(number1):
-    if number1 %2==0:
-        return True
-    else:
-        return False   
+    return number1%2==0   
 main()
